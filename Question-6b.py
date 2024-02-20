@@ -1,13 +1,21 @@
 """ print the following patterns:
 b)
- *
- * * *
- * * * * *
- * * * * * * * """
+       *
+     * * *
+   * * * * *
+ * * * * * * * 
+ """
 
-row=int(input("Enter the no of rows:"))
+rows=int(input("Enter the no of rows:"))
 
-for i in range(1,row+1,2):
+
+for i in range(rows):
+    for j in range(i,rows):
+        print(" ", end=" ")
+
     for j in range(i):
+        print("*", end=" ")
+
+    for j in range(i+1):
         print("*", end=" ")
     print()

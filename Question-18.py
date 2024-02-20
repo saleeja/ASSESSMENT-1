@@ -1,0 +1,1 @@
+"""Write a Python program to implement a binary search on a sorted list."""
