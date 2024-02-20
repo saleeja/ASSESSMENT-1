@@ -15,26 +15,31 @@ def matrix_multiply(matrix1, matrix2):
 
     return result_matrix
 
+def input_matrix():
+    rows = int(input("Enter the number of rows: "))
+    cols = int(input("Enter the number of columns: "))
 
-matrix1 = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
+    matrix = []
+    print(f"Enter the elements for the {rows}x{cols} matrix:")
+    for i in range(rows):
+        row = [int(input(f"Enter element at position ({i+1}, {j+1}): ")) for j in range(cols)]
+        matrix.append(row)
 
-matrix2 = [
-    [9, 8, 7],
-    [6, 5, 4],
-    [3, 2, 1]
-]
+    return matrix
 
+# Get user input for matrix1
+print("Enter details for the first matrix:")
+matrix1 = input_matrix()
+
+# Get user input for matrix2
+print("\nEnter details for the second matrix:")
+matrix2 = input_matrix()
+
+# Perform matrix multiplication
 result = matrix_multiply(matrix1, matrix2)
 
-
+# Print the result
 if result is not None:
-    print("Result of matrix multiplication:")
+    print("\nResult of matrix multiplication:")
     for row in result:
         print(row)
-
-
-
