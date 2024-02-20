@@ -16,5 +16,5 @@ number_list = [int(element) for element in input_list]
 # Remove all occurrences of the given element
 result_list = remove_element(number_list, int(element_to_remove))
 
-lt
+
 print("List after removing all occurrences of", element_to_remove, ":", result_list)

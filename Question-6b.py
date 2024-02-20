@@ -1,9 +1,9 @@
 """ print the following patterns:
 b)
-       *
-     * * *
-   * * * * *
- * * * * * * * 
+          *
+        * * *
+      * * * * *
+    * * * * * * * 
  """
 
 rows=int(input("Enter the no of rows:"))

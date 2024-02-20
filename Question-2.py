@@ -70,7 +70,7 @@ while True:
     elif choice == '2':
         login()
     elif choice == '3':
-        print("Exiting the program. Goodbye!")
+        print("Catch us later, and have a great day!")
         break
     else:
         print("Invalid choice. Please enter 1, 2, or 3.")
