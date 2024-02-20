@@ -35,10 +35,10 @@ matrix1 = input_matrix()
 print("\nEnter details for the second matrix:")
 matrix2 = input_matrix()
 
-# Perform matrix multiplication
+
 result = matrix_multiply(matrix1, matrix2)
 
-# Print the result
+
 if result is not None:
     print("\nResult of matrix multiplication:")
     for row in result:

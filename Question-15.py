@@ -5,7 +5,7 @@ def is_leap_year(year):
     # or divisible by 400.
     return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
 
-# Example usage:
+
 user_input = int(input("Enter a year: "))
 
 if is_leap_year(user_input):

@@ -23,7 +23,6 @@ def is_empty():
 def size():
     return len(queue)
 
-# Example usage:
 enqueue(1)
 enqueue(2)
 enqueue(3)

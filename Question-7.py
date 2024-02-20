@@ -14,7 +14,7 @@ user_list = list(user_input)
 # Get user input for the element to count
 element_to_count = input("Enter the element to count: ")
 
-# Call the function to count occurrences
+
 occurrences = count_occurrences(user_list, element_to_count)
 
 print(f"The element '{element_to_count}' occurs {occurrences} times in the list.")

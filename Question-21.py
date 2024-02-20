@@ -22,6 +22,6 @@ else:
         # Find the second largest number (new maximum)
         second_largest = max(number_list)
 
-        # Display the result
+
         print("Second-largest number in the list:", second_largest)
 

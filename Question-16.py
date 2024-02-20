@@ -23,7 +23,7 @@ def is_empty():
 def size():
     return len(stack)
 
-# User input for stack operations
+
 while True:
     print("\nChoose an operation:")
     print("1. Push")
