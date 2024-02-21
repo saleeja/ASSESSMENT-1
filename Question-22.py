@@ -7,4 +7,5 @@ def findSum(list1):
         return list1[0]+findSum(list1[1:]) 
  
 list1 = [1, 2, 3, 4, 5] 
-print(findSum(list1))
+result = (findSum(list1))
+print(f"The sum of elements in the list is: {result}")

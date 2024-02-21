@@ -1,7 +1,8 @@
 """ Write a Python program to count the number of vowels in a string"""
 
 def count_in_vowels(userInput):
-    vowels=["a","e","i","o","u"]
+    vowels=["a","e","i","o","u"]  # List of vowels to check 
+    # Initialize a counter variable to keep track of the vowel count
     count=0
     
     for i in userInput:
@@ -9,7 +10,7 @@ def count_in_vowels(userInput):
             count+=1
     return count
    
-
+# Get user input
 userInput=(input("Enter a string:"))
 vowel_count=(count_in_vowels(userInput))
 

@@ -16,7 +16,7 @@ def binary_search_recursive(sorted_list, target, low, high):
         return -1  # Target not found in the list
 
 
-sorted_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sorted_list = [1, 2, 3, 4, 5, 6, 7, 8, 9,10]
 target = int(input("Enter the target element to search: "))
 
 result = binary_search_recursive(sorted_list, target, 0, len(sorted_list) - 1)

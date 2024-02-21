@@ -1,12 +1,14 @@
 """Write a Python program to check if a given number is a perfect number"""
 
+# perfect number, a positive integer that is equal to the sum of its proper divisors. 
+# The smallest perfect number is 6, which is the sum of 1, 2, and 3.
 
 def is_perfect_number(number):
     if number <= 0:
         return False
 
     divisors_sum = 0
-    for i in range(1, number):
+    for i in range(1, number):  
         if number % i == 0:
             divisors_sum += i
 

@@ -2,7 +2,7 @@
 
 
 def remove(string):
-	return string.replace(" ", "")
+	return string.replace(" ", "")  #(oldvalue, newvalue)
 
 
 string = input("Enter a string:")
